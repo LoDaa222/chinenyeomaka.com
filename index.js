@@ -1,24 +1,23 @@
 document.querySelector("#myCarousel > button.carousel-control-prev")
 
+document.querySelector("body > div.dropdown.position-fixed.bottom-0.end-0.mb-3.me-3.bd-mode-toggle")
 
+ //window.onscroll = function()
+//{myFunction()};
 
-window.onscroll = function()
-{myFunction()};
+// var header =
+// document.getElementById("myHeader");
 
- var header =
- document.getElementById("myHeader");
+//var sticky = header.offsetTop;
 
- var sticky = header.offsetTop;
+// function myFunction() {
+// if (window.pageYOffset > sticky) {
+  //  header.classList.add("sticky");
 
- function myFunction() {
- if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-
-  }else {
-    header.classList.remove("sticky");
-  }
+ //} else {
+ // }
  
- }
+  //} 
 
 
 
